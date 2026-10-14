@@ -1,0 +1,250 @@
+Checking input data.
+Processing 1 inputs with 1 threads.
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  3.36it/s]100%|██████████| 1/1 [00:00<00:00,  3.36it/s]
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+Running structure prediction for 1 input.
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+You are using a CUDA device ('NVIDIA GeForce RTX 5060 Laptop GPU') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [01:47<00:00,  0.01it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 1/1 [01:47<00:00,  0.01it/s]Warning: MSA does not match input sequence, creating dummy. 1 [14  3 16 19 11 21 19  2 18  9 12 12  2 20 11 21  2 21 12  4  3 18 18 12
+  9 21 17  9 12  8  2  9  8  3 15 10  2  9 16 17 21 12 17 18 15 21 21 12
+  7 12 11 21 20  2  2  2  7 21 16  2  9 21 12 12  5  3 20  9 17 13 21 12
+ 11 11 17  9  2  2 12 14  2  9  9  7 12  2 11  2 12 18  7 17 12 16 14  2
+ 12 18  2  3  2 11 21  9 12  9  5  2 11 18 15 11 17 21 12  3 12 21 16 10
+ 19 15 16  2  3  3 21 16 12 12 18  7 12 18  9 11 17  9  4 15  9  7 21 12
+ 17  2 21 16 15 12  2 12 12  9 21  2  9 19 18 17  2 20 12 17 21  2  2 15
+  2 21 12  2 12  2 12  2  2  2 12 11  3  4 18 16  5  9  3 16  2 18 18 17
+ 18 12 17 21  3 17 18 12  2  4 21  3 18 21 19 12  3 16  9 18  3 12  9 15
+ 15 18 10 14  9 18  8 15 17 21 18  2 15  2 12 14 19  9 21 16 20 21 18 18
+  2  7  9  7 18  3  9 11  2  9 14 12 12 18 11 17 21 12 18  2 21  2  2  9
+ 21 21 12  9 12 12  6  9  3 15 16 10  3  3 17  3 15 21 12  2 11 11  9 17
+  4  2  2 11 19 18 11 21 12  2 14 16  4  7  2 16 12 19 12 12 21 21 12 21
+ 21 11 11 17 21  9  9 16  9 17 14 21  9 15  5 15  2  3 18 15  4 16 17  2
+ 18 12  9 18  2  7  9 14 21  4 14  9  9 20 12  2 17 12 14 12 14  7  2 14
+  9 19 11 12  5 21  2  9  9 20 17 17  8 17 15  3 12  2 19 18 21  7 20 21
+ 21 19  2 21  2 21 11  9 11 12 21 18  3  3 13 18  3  3  7 12  9 12  7  9
+  4  2 17  5  3 19 12 12  8 18 15  5 16  8 16 18  5 11 17  3] [14  3 16 19 11 21 19  2 18  9 12 12  2 20 11 21  2 21 12  4  3 18 18 12
+  9 21 17  9 12  8  2  9  8  3 15 10  2  9 16 17 21 12 17 18 15 21 21 12
+  7 11 11 21 20  2  2  2  7 21 16  2  9 21 12 12  5  3 20  9 17 13 21 12
+ 11 11 17  9  2  2 12 14  2  9  9  7 12  2 11  2 12 18  7 17 12 16 14  2
+ 12 18  2  3  2 11 21  9 12  9  5  2 11 18 15 11 17 21 12  3 12 21 16 10
+ 19 15 16  2  3  3 21 16 12 12 18  7 12 18  9 11 17  9  7 15  9  7 21 12
+ 17  2 21 16 15 12  2 12 12  9 21  2  9 19 18 17  2 20 12 17 21  2  2 15
+  2 21 12  2 12  2 12  2  2  2 12 11  3  4 18 16  5  9  3 16  2 18 18 17
+ 18 12 17 21  3 17 18 12  2  4 21  3 18 21 19 12  3 16  9 18  3 12  9 15
+ 15 18 10 14  9 18  7 15 17 21 18  2 15  2 12 14 19  9 21 16 20 21 18 18
+  2  7  9  7 18  3  9 11  2  9 14 12 12 18 11 17 21 12 18  2 21  2  2  9
+ 21 21 12  9 12 12  6  9  3 15 16 10  3  3 17  3 15 21 12  2 11 11  9 17
+  4  2  2 11 19 18 11 21 12  2 14 16  4  7  2 16 12 19 12 12 21 21 12 21
+ 21 11 11 17 21  9  9 16  9 17 14 21  9 15  5 15  2  3 18 15  4 16 17  2
+ 18 12  9 18  2  7  9 14 21  4 14  9  9 15 12  2 17 12 14 12 14  7  2 14
+  9 19 11 12  5 21  2  9  9 20 17 17  8 17 15  3 12  2 19 18 21  7 20 21
+ 21 19  2 21  2 21 11  9 11 12 21 18  3  3 13 18  3  3  7 12  9 12  7  9
+  4  2 17  5  3 19 12 12  8 18 15  5 16  8 16 18  5 11 17  3] boltz_T0p1_id19_EGT
+
+Checking input data.
+Processing 1 inputs with 1 threads.
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  3.26it/s]100%|██████████| 1/1 [00:00<00:00,  3.26it/s]
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+Running structure prediction for 1 input.
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+You are using a CUDA device ('NVIDIA GeForce RTX 5060 Laptop GPU') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [01:42<00:00,  0.01it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 1/1 [01:42<00:00,  0.01it/s]Warning: MSA does not match input sequence, creating dummy. 1 [14  3 16 19 11 21 19  2 18  9 12 12  2 20 11 21  2 21 12  4  3 18 18 12
+  9 21 17  9 12  8  2  9  8  3 15 10  2  9 16 17 21 12 17 18 15 21 21 12
+  7 12 11 21 20  2  2  2  7 21 16  2  9 21 12 12  5  3 20  9 17 13 21 12
+ 11 11 17  9  2  2 12 14  2  9  9  7 12  2 11  2 12 18  7 17 12 16 14  2
+ 12 18  2  3  2 11 21  9 12  9  5  2 11 18 15 11 17 21 12  3 12 21 16 10
+ 19 15 16  2  3  3 21 16 12 12 18  7 12 18  9 11 17  9  4 15  9  7 21 12
+ 17  2 21 16 15 12  2 12 12  9 21  2  9 19 18 17  2 20 12 17 21  2  2 15
+  2 21 12  2 12  2 12  2  2  2 12 11  3  4 18 16  5  9  3 16  2 18 18 17
+ 18 12 17 21  3 17 18 12  2  4 21  3 18 21 19 12  3 16  9 18  3 12  9 15
+ 15 18 10 14  9 18  8 15 17 21 18  2 15  2 12 14 19  9 21 16 20 21 18 18
+  2  7  9  7 18  3  9 11  2  9 14 12 12 18 11 17 21 12 18  2 21  2  2  9
+ 21 21 12  9 12 12  6  9  3 15 16 10  3  3 17  3 15 21 12  2 11 11  9 17
+  4  2  2 11 19 18 11 21 12  2 14 16  4  7  2 16 12 19 12 12 21 21 12 21
+ 21 11 11 17 21  9  9 16  9 17 14 21  9 15  5 15  2  3 18 15  4 16 17  2
+ 18 12  9 18  2  7  9 14 21 18 14  9  9 20 12  2 17 12 14 12 14  7  2 14
+  9 19 11 12  5 21  2  9  9 20 17 17  8 17 15  3 12  2 19 18 21  7 20 21
+ 21 19  2 21  2 21 11  9 11 12 21 18  3  3 13 18  3  3  7 12  9 12  7  9
+  4  2 17  5  3 19 12 12  8 18 15  5 16  8 16 18  5 11 17  3] [14  3 16 19 11 21 19  2 18  9 12 12  2 20 11 21  2 21 12  4  3 18 18 12
+  9 21 17  9 12  8  2  9  8  3 15 10  2  9 16 17 21 12 17 18 15 21 21 12
+  7 11 11 21 20  2  2  2  7 21 16  2  9 21 12 12  5  3 20  9 17 13 21 12
+ 11 11 17  9  2  2 12 14  2  9  9  7 12  2 11  2 12 18  7 17 12 16 14  2
+ 12 18  2  3  2 11 21  9 12  9  5  2 11 18 15 11 17 21 12  3 12 21 16 10
+ 19 15 16  2  3  3 21 16 12 12 18  7 12 18  9 11 17  9  7 15  9  7 21 12
+ 17  2 21 16 15 12  2 12 12  9 21  2  9 19 18 17  2 20 12 17 21  2  2 15
+  2 21 12  2 12  2 12  2  2  2 12 11  3  4 18 16  5  9  3 16  2 18 18 17
+ 18 12 17 21  3 17 18 12  2  4 21  3 18 21 19 12  3 16  9 18  3 12  9 15
+ 15 18 10 14  9 18  7 15 17 21 18  2 15  2 12 14 19  9 21 16 20 21 18 18
+  2  7  9  7 18  3  9 11  2  9 14 12 12 18 11 17 21 12 18  2 21  2  2  9
+ 21 21 12  9 12 12  6  9  3 15 16 10  3  3 17  3 15 21 12  2 11 11  9 17
+  4  2  2 11 19 18 11 21 12  2 14 16  4  7  2 16 12 19 12 12 21 21 12 21
+ 21 11 11 17 21  9  9 16  9 17 14 21  9 15  5 15  2  3 18 15  4 16 17  2
+ 18 12  9 18  2  7  9 14 21  4 14  9  9 15 12  2 17 12 14 12 14  7  2 14
+  9 19 11 12  5 21  2  9  9 20 17 17  8 17 15  3 12  2 19 18 21  7 20 21
+ 21 19  2 21  2 21 11  9 11 12 21 18  3  3 13 18  3  3  7 12  9 12  7  9
+  4  2 17  5  3 19 12 12  8 18 15  5 16  8 16 18  5 11 17  3] boltz_T0p1_id52_EGT
+
+Checking input data.
+Processing 1 inputs with 1 threads.
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  3.23it/s]100%|██████████| 1/1 [00:00<00:00,  3.23it/s]
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+Running structure prediction for 1 input.
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+You are using a CUDA device ('NVIDIA GeForce RTX 5060 Laptop GPU') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [01:42<00:00,  0.01it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 1/1 [01:42<00:00,  0.01it/s]Warning: MSA does not match input sequence, creating dummy. 1 [14  3 16 19 11 21 19  2 18  9 12 12  2 20 11 21  2 21 12  4  3 18 18 12
+  9 21 17  9 12  8  2  9  8  3 15 10  2  9 16 17 21 12 17 18 15 21 21 12
+  7 12 11 21 20  2  2  2  7 21 16  2  9 21 12 12  5  3 20  9 17 13 21 12
+ 11 11 17  9  2  2 12 14  2  9  9  7 12  2 11  2 12 18  7 17 12 16 14  2
+ 12 18  2  3  2 11 21  9 12  9  5  2 11 18 15 11 17 21 12  3 12 21 16 10
+ 19 15 16  2  3  3 21 16 12 12 18  7 12 18  9 11 17  9 10 15  9  7 21 12
+ 17  2 21 16 15 12  2 12 12  9 21  2  9 19 18 17  2 20 12 17 21  2  2 15
+  2 21 12  2 12  2 12  2  2  2 12 11  3  4 18 16  5  9  3 16  2 18 18 17
+ 18 12 17 21  3 17 18 12  2  4 21  3 18 21 19 12  3 16  9 18  3 12  9 15
+ 15 18 10 14  9 18  8 15 17 21 18  2 15  2 12 14 19  9 21 16 20 21 18 18
+  2  7  9  7 18  3  9 11  2  9 14 12 12 18 11 17 21 12 18  2 21  2  2  9
+ 21 21 12  9 12 12  6  9  3 15 16 10  3  3 17  3 15 21 12  2 11 11  9 17
+  4  2  2 11 19 18 11 21 12  2 14 16  4  7  2 16 12 19 12 12 21 21 12 21
+ 21 11 11 17 21  9  9 16  9 17 14 21  9 15  5 15  2  3 18 15  4 16 17  2
+ 18 12  9 18  2  7  9 14 21 18 14  9  9 20 12  2 17 12 14 12 14  7  2 14
+  9 19 11 12  5 21  2  9  9 20 17 17  8 17 15  3 12  2 19 18 21  7 20 21
+ 21 19  2 21  2 21 11  9 11 12 21 18  3  3 13 18  3  3  7 12  9 12  7  9
+  4  2 17  5  3 19 12 12  8 18 15  5 16  8 16 18  5 11 17  3] [14  3 16 19 11 21 19  2 18  9 12 12  2 20 11 21  2 21 12  4  3 18 18 12
+  9 21 17  9 12  8  2  9  8  3 15 10  2  9 16 17 21 12 17 18 15 21 21 12
+  7 11 11 21 20  2  2  2  7 21 16  2  9 21 12 12  5  3 20  9 17 13 21 12
+ 11 11 17  9  2  2 12 14  2  9  9  7 12  2 11  2 12 18  7 17 12 16 14  2
+ 12 18  2  3  2 11 21  9 12  9  5  2 11 18 15 11 17 21 12  3 12 21 16 10
+ 19 15 16  2  3  3 21 16 12 12 18  7 12 18  9 11 17  9  7 15  9  7 21 12
+ 17  2 21 16 15 12  2 12 12  9 21  2  9 19 18 17  2 20 12 17 21  2  2 15
+  2 21 12  2 12  2 12  2  2  2 12 11  3  4 18 16  5  9  3 16  2 18 18 17
+ 18 12 17 21  3 17 18 12  2  4 21  3 18 21 19 12  3 16  9 18  3 12  9 15
+ 15 18 10 14  9 18  7 15 17 21 18  2 15  2 12 14 19  9 21 16 20 21 18 18
+  2  7  9  7 18  3  9 11  2  9 14 12 12 18 11 17 21 12 18  2 21  2  2  9
+ 21 21 12  9 12 12  6  9  3 15 16 10  3  3 17  3 15 21 12  2 11 11  9 17
+  4  2  2 11 19 18 11 21 12  2 14 16  4  7  2 16 12 19 12 12 21 21 12 21
+ 21 11 11 17 21  9  9 16  9 17 14 21  9 15  5 15  2  3 18 15  4 16 17  2
+ 18 12  9 18  2  7  9 14 21  4 14  9  9 15 12  2 17 12 14 12 14  7  2 14
+  9 19 11 12  5 21  2  9  9 20 17 17  8 17 15  3 12  2 19 18 21  7 20 21
+ 21 19  2 21  2 21 11  9 11 12 21 18  3  3 13 18  3  3  7 12  9 12  7  9
+  4  2 17  5  3 19 12 12  8 18 15  5 16  8 16 18  5 11 17  3] boltz_T0p1_id74_EGT
+
+Checking input data.
+Processing 1 inputs with 1 threads.
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  3.19it/s]100%|██████████| 1/1 [00:00<00:00,  3.19it/s]
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+Running structure prediction for 1 input.
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+You are using a CUDA device ('NVIDIA GeForce RTX 5060 Laptop GPU') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [01:42<00:00,  0.01it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 1/1 [01:42<00:00,  0.01it/s]Warning: MSA does not match input sequence, creating dummy. 1 [14  3 16 19 11 21 19  2 18  9 12 12  2 20 11 21  2 21 12  4  3 18 18 12
+  9 21 17  9 12  8  2  9  8  3 15 10  2  9 16 17 21 12 17 18 15 21 21 12
+  7 12 11 21 20  2  2  2  7 21 16  2  9 21 12 12  5  3 20  9 17 13 21 12
+ 11 11 17  9  2  2 12 14  2  9  9  7 12  2 11  2 12 18  7 17 12 16 14  2
+ 12 18  2  3  2 11 21  9 12  9  5  2 11 18 15 11 17 21 12  3 12 21 16 10
+ 19 15 16  2  3  3 21 16 12 12 18  7 12 18  9 11 17  9 10 15  9  7 21 12
+ 17  2 21 16 15 12  2 12 12  9 21  2  9 19 18 17  2 20 12 17 21  2  2 15
+  2 21 12  2 12  2 12  2  2  2 12 11  3  4 18 16  5  9  3 16  2 18 18 17
+ 18 12 17 21  3 17 18 12  2  4 21  3 18 21 19 12  3 16  9 18  3 12  9 15
+ 15 18 10 14  9 18  8 15 17 21 18  2 15  2 12 14 19  9 21 16 20 21 18 18
+  2  7  9  7 18  3  9 11  2  9 14 12 12 18 11 17 21 12 18  2 21  2  2  9
+ 21 21 12  9 12 12  6  9  3 15 16 10  3  3 17  3 15 21 12  2 11 11  9 17
+  4  2  2 11 19 18 11 21 12  2 14 16  4  7  2 16 12 19 12 12 21 21 12 21
+ 21 11 11 17 21  9  9 16  9 17 14 21  9 15  5 15  2  3 18 15  4 16 17  2
+ 18 12  9 18  2  7  9 14 21  4 14  9  9 20 12  2 17 12 14 12 14  7  2 14
+  9 19 11 12  5 21  2  9  9 20 17 17  8 17 15  3 12  2 19 18 21  7 20 21
+ 21 19  2 21  2 21 11  9 11 12 21 18  3  3 13 18  3  3  7 12  9 12  7  9
+  4  2 17  5  3 19 12 12  8 18 15  5 16  8 16 18  5 11 17  3] [14  3 16 19 11 21 19  2 18  9 12 12  2 20 11 21  2 21 12  4  3 18 18 12
+  9 21 17  9 12  8  2  9  8  3 15 10  2  9 16 17 21 12 17 18 15 21 21 12
+  7 11 11 21 20  2  2  2  7 21 16  2  9 21 12 12  5  3 20  9 17 13 21 12
+ 11 11 17  9  2  2 12 14  2  9  9  7 12  2 11  2 12 18  7 17 12 16 14  2
+ 12 18  2  3  2 11 21  9 12  9  5  2 11 18 15 11 17 21 12  3 12 21 16 10
+ 19 15 16  2  3  3 21 16 12 12 18  7 12 18  9 11 17  9  7 15  9  7 21 12
+ 17  2 21 16 15 12  2 12 12  9 21  2  9 19 18 17  2 20 12 17 21  2  2 15
+  2 21 12  2 12  2 12  2  2  2 12 11  3  4 18 16  5  9  3 16  2 18 18 17
+ 18 12 17 21  3 17 18 12  2  4 21  3 18 21 19 12  3 16  9 18  3 12  9 15
+ 15 18 10 14  9 18  7 15 17 21 18  2 15  2 12 14 19  9 21 16 20 21 18 18
+  2  7  9  7 18  3  9 11  2  9 14 12 12 18 11 17 21 12 18  2 21  2  2  9
+ 21 21 12  9 12 12  6  9  3 15 16 10  3  3 17  3 15 21 12  2 11 11  9 17
+  4  2  2 11 19 18 11 21 12  2 14 16  4  7  2 16 12 19 12 12 21 21 12 21
+ 21 11 11 17 21  9  9 16  9 17 14 21  9 15  5 15  2  3 18 15  4 16 17  2
+ 18 12  9 18  2  7  9 14 21  4 14  9  9 15 12  2 17 12 14 12 14  7  2 14
+  9 19 11 12  5 21  2  9  9 20 17 17  8 17 15  3 12  2 19 18 21  7 20 21
+ 21 19  2 21  2 21 11  9 11 12 21 18  3  3 13 18  3  3  7 12  9 12  7  9
+  4  2 17  5  3 19 12 12  8 18 15  5 16  8 16 18  5 11 17  3] boltz_T0p2_id49_EGT
+
+Checking input data.
+Processing 1 inputs with 1 threads.
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  3.29it/s]100%|██████████| 1/1 [00:00<00:00,  3.29it/s]
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+Running structure prediction for 1 input.
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+You are using a CUDA device ('NVIDIA GeForce RTX 5060 Laptop GPU') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/apatite/miniconda3/envs/boltz2/lib/python3.11/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Predicting DataLoader 0: 100%|██████████| 1/1 [01:42<00:00,  0.01it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 1/1 [01:42<00:00,  0.01it/s]Warning: MSA does not match input sequence, creating dummy. 1 [14  3 16 19 11 21 19  2 18  9 12 12  2 20 11 21  2 21 12  4  3 18 18 12
+  9 21 17  9 12  8  2  9  8  3 15 10  2  9 16 17 21 12 17 18 15 21 21 12
+  7 12 11 21 20  2  2  2  7 21 16  2  9 21 12 12  5  3 20  9 17 13 21 12
+ 11 11 17  9  2  2 12 14  2  9  9  7 12  2 11  2 12 18  7 17 12 16 14  2
+ 12 18  2  3  2 11 21  9 12  9  5  2 11 18 15 11 17 21 12  3 12 21 16 10
+ 19 15 16  2  3  3 21 16 12 12 18  7 12 18  9 11 17  9 18 15  9  7 21 12
+ 17  2 21 16 15 12  2 12 12  9 21  2  9 19 18 17  2 20 12 17 21  2  2 15
+  2 21 12  2 12  2 12  2  2  2 12 11  3  4 18 16  5  9  3 16  2 18 18 17
+ 18 12 17 21  3 17 18 12  2  4 21  3 18 21 19 12  3 16  9 18  3 12  9 15
+ 15 18 10 14  9 18  8 15 17 21 18  2 15  2 12 14 19  9 21 16 20 21 18 18
+  2  7  9  7 18  3  9 11  2  9 14 12 12 18 11 17 21 12 18  2 21  2  2  9
+ 21 21 12  9 12 12  6  9  3 15 16 10  3  3 17  3 15 21 12  2 11 11  9 17
+  4  2  2 11 19 18 11 21 12  2 14 16  4  7  2 16 12 19 12 12 21 21 12 21
+ 21 11 11 17 21  9  9 16  9 17 14 21  9 15  5 15  2  3 18 15  4 16 17  2
+ 18 12  9 18  2  7  9 14 21 18 14  9  9 20 12  2 17 12 14 12 14  7  2 14
+  9 19 11 12  5 21  2  9  9 20 17 17  8 17 15  3 12  2 19 18 21  7 20 21
+ 21 19  2 21  2 21 11  9 11 12 21 18  3  3 13 18  3  3  7 12  9 12  7  9
+  4  2 17  5  3 19 12 12  8 18 15  5 16  8 16 18  5 11 17  3] [14  3 16 19 11 21 19  2 18  9 12 12  2 20 11 21  2 21 12  4  3 18 18 12
+  9 21 17  9 12  8  2  9  8  3 15 10  2  9 16 17 21 12 17 18 15 21 21 12
+  7 11 11 21 20  2  2  2  7 21 16  2  9 21 12 12  5  3 20  9 17 13 21 12
+ 11 11 17  9  2  2 12 14  2  9  9  7 12  2 11  2 12 18  7 17 12 16 14  2
+ 12 18  2  3  2 11 21  9 12  9  5  2 11 18 15 11 17 21 12  3 12 21 16 10
+ 19 15 16  2  3  3 21 16 12 12 18  7 12 18  9 11 17  9  7 15  9  7 21 12
+ 17  2 21 16 15 12  2 12 12  9 21  2  9 19 18 17  2 20 12 17 21  2  2 15
+  2 21 12  2 12  2 12  2  2  2 12 11  3  4 18 16  5  9  3 16  2 18 18 17
+ 18 12 17 21  3 17 18 12  2  4 21  3 18 21 19 12  3 16  9 18  3 12  9 15
+ 15 18 10 14  9 18  7 15 17 21 18  2 15  2 12 14 19  9 21 16 20 21 18 18
+  2  7  9  7 18  3  9 11  2  9 14 12 12 18 11 17 21 12 18  2 21  2  2  9
+ 21 21 12  9 12 12  6  9  3 15 16 10  3  3 17  3 15 21 12  2 11 11  9 17
+  4  2  2 11 19 18 11 21 12  2 14 16  4  7  2 16 12 19 12 12 21 21 12 21
+ 21 11 11 17 21  9  9 16  9 17 14 21  9 15  5 15  2  3 18 15  4 16 17  2
+ 18 12  9 18  2  7  9 14 21  4 14  9  9 15 12  2 17 12 14 12 14  7  2 14
+  9 19 11 12  5 21  2  9  9 20 17 17  8 17 15  3 12  2 19 18 21  7 20 21
+ 21 19  2 21  2 21 11  9 11 12 21 18  3  3 13 18  3  3  7 12  9 12  7  9
+  4  2 17  5  3 19 12 12  8 18 15  5 16  8 16 18  5 11 17  3] boltz_T0p2_id89_EGT
+

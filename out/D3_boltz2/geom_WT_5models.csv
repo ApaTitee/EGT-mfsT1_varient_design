@@ -1,0 +1,6 @@
+variant_id,n_quat_to_cage_min,cage_contacts_le5,carboxyl_to_R21,sulfur_to_donor,criterion1,criterion2,criterion3,n_pass,note
+WT_boltz_m0,4.74,2,2.08,8.26,PASS,PASS,FAIL,2,
+WT_boltz_m1,4.63,2,2.91,9.49,PASS,PASS,FAIL,2,
+WT_boltz_m2,4.75,2,2.55,9.08,PASS,PASS,FAIL,2,
+WT_boltz_m3,4.54,3,3.5,9.45,PASS,PASS,FAIL,2,
+WT_boltz_m4,4.67,2,4.63,8.51,PASS,FAIL,FAIL,1,
