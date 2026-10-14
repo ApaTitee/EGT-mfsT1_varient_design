@@ -1,0 +1,281 @@
+{
+ "Q1": {
+  "query": "(ergothioneine OR EGT OR \"L-ergothioneine\") AND (export* OR efflux OR secret* OR excret*) AND (transporter OR permease OR pump OR channel)",
+  "hitCount": 931,
+  "top": [
+   [
+    "2026",
+    "Ergothioneine: Biosynthesis, Molecular Mechanisms, Physiological Function, and Role in Disease.",
+    "42707330"
+   ],
+   [
+    "2026",
+    "Edible Fungi and Skin Redox Homeostasis: Bioactive Diversity, Processing, Oral Exposure, and Evidence Gaps.",
+    "42792150"
+   ],
+   [
+    "2026",
+    "Smart Release of the Antioxidant from Chitosan-Hyaluronan Reservoir in Skin Wound Healing.",
+    "42198295"
+   ],
+   [
+    "2026",
+    "Ergothioneine-Derived Carbon Dot Nanozymes Alleviate the Oxidative Stress Microenvironment to Delay Interverte",
+    "42792120"
+   ],
+   [
+    "2026",
+    "Organic cation transporter novel 1 (OCTN1): beyond an ergothioneine transporter.",
+    "42070023"
+   ],
+   [
+    "2025",
+    "Selenoneine and ergothioneine in beluga skin and tissues as key antioxidants in the Inuit diet.",
+    "41087558"
+   ],
+   [
+    "2026",
+    "Natural Histidine Derivatives-From Basic Research to Potential Applications in Cosmetics and Nutricosmetics.",
+    "42792157"
+   ],
+   [
+    "2026",
+    "Nutritional redox reprogramming in cardiometabolic diseases: alpha-lipoic acid, urolithin A, and ergothioneine",
+    "42221763"
+   ],
+   [
+    "2025",
+    "Characterization of Bioactive Compounds in Spent Mushroom Substrate: A Metabolomic Perspective on Its Untapped",
+    "41517175"
+   ],
+   [
+    "2026",
+    "Ergothioneine prevents ovariectomy-induced osteoporosis by suppressing NF-κB/p65 signalling to attenuate osteo",
+    "41833304"
+   ],
+   [
+    "2026",
+    "An integrated anti-aging framework targeting NAD&lt;sup&gt;+&lt;/sup&gt; homeostasis, mitochondrial quality co",
+    "42068909"
+   ],
+   [
+    "2026",
+    "Exploring the role of ergothioneine and mycorrhizal fungi in shaping the wheat soil microbiome.",
+    "42226086"
+   ],
+   [
+    "2026",
+    "Ergothioneine-rich water extracts of &lt;i&gt;Hericium erinaceus&lt;/i&gt; HE-17 alleviate Alzheimer's disease",
+    "42253730"
+   ],
+   [
+    "2026",
+    "Coupling Carbon-Source Transport with Antioxidant Biosynthesis in Yeast: Product Diversity and Engineering Str",
+    "42792589"
+   ],
+   [
+    "2025",
+    "Enhancement of ergothioneine production in Corynebacterium glutamicum by increasing osmotic pressure.",
+    "41359152"
+   ]
+  ]
+ },
+ "Q2": {
+  "query": "\"mfsT1\"",
+  "hitCount": 6,
+  "top": [
+   [
+    "2024",
+    "Co-augmentation of a transport gene mfsT1 in Mycolicibacterium neoaurum with genome engineering to enhance erg",
+    "38253966"
+   ],
+   [
+    "2024",
+    "Ergothioneine biosynthesis: The present state and future prospect.",
+    "39717282"
+   ],
+   [
+    "2011",
+    "Ameliorating effects of fermented rice bran extract on oxidative stress induced by high glucose and hydrogen p",
+    "21748436"
+   ],
+   [
+    "2021",
+    "Methanogenic archaea use a bacteria-like methyltransferase system to demethoxylate aromatic compounds.",
+    "34145392"
+   ],
+   [
+    "2019",
+    "The anti-cancer activity and potential clinical application of rice bran extracts and fermentation products.",
+    "35520585"
+   ],
+   [
+    "2015",
+    "Anti-Oxidant and Anti-Adipogenic Effects of Ethanol Extracts from Wheat Germ and Wheat Germ Fermented with Asp",
+    "25866747"
+   ]
+  ]
+ },
+ "Q3": {
+  "query": "(ergothioneine) AND (MFS OR \"major facilitator\") AND (efflux OR export)",
+  "hitCount": 39,
+  "top": [
+   [
+    "2025",
+    "The SLC-ome of membrane transport: From molecular discovery to physiology and clinical applications.",
+    "41026912"
+   ],
+   [
+    "2025",
+    "Recent advances in lincosamide biosynthetic studies.",
+    "41291032"
+   ],
+   [
+    "2026",
+    "Genome scale CRISPRi reveals both shared and strain-specific vulnerabilities in genetically diverse drug-resis",
+    "42248880"
+   ],
+   [
+    "2025",
+    "Insight into the Mechanisms and Clinical Relevance of Antifungal Heteroresistance.",
+    "39997437"
+   ],
+   [
+    "2026",
+    "Spatiotemporal coordination of virulence, metabolism, and stress responses shapes infection dynamics of &lt;i&",
+    "42505097"
+   ],
+   [
+    "2024",
+    "Deorphanizing solute carriers in <i>Saccharomyces cerevisiae</i> for secondary uptake of xenobiotic compounds.",
+    "38680917"
+   ],
+   [
+    "2024",
+    "Multidrug resistance of &lt;i&gt;Botrytis cinerea&lt;/i&gt; associated with its adaptation to plant secondary ",
+    "38259067"
+   ],
+   [
+    "2026",
+    "Host oxidative stress primes mycobacteria for rapid antibiotic resistance evolution.",
+    "42098099"
+   ],
+   [
+    "2024",
+    "Bacterial cell volume regulation and the importance of cyclic di-AMP.",
+    "38856222"
+   ],
+   [
+    "2021",
+    "<b>Emerging Roles of the Human Solute Carrier 22 Family</b>.",
+    "34921098"
+   ],
+   [
+    "2021",
+    "The role of SLC transporters for brain health and disease.",
+    "34971415"
+   ],
+   [
+    "2025",
+    "&lt;i&gt;Moesziomyces antarcticus MMF1&lt;/i&gt; Has a Role in the Secretion of Mannosylerythritol Lipids.",
+    "40731973"
+   ],
+   [
+    "2022",
+    "Transcriptional regulation and drug resistance in <i>Mycobacterium tuberculosis</i>.",
+    "36118045"
+   ],
+   [
+    "2021",
+    "From the soil to the clinic: the impact of microbial secondary metabolites on antibiotic tolerance and resista",
+    "34531577"
+   ],
+   [
+    "2020",
+    "Deorphaning a solute carrier 22 family member, SLC22A15, through functional genomic studies.",
+    "33124720"
+   ]
+  ]
+ },
+ "Q4": {
+  "query": "(ergothioneine) AND (Mycobacterium OR Mycolicibacterium OR Corynebacterium)",
+  "hitCount": 381,
+  "top": [
+   [
+    "2026",
+    "Ergothioneine: Biosynthesis, Molecular Mechanisms, Physiological Function, and Role in Disease.",
+    "42707330"
+   ],
+   [
+    "2025",
+    "Enhancement of ergothioneine production in Corynebacterium glutamicum by increasing osmotic pressure.",
+    "41359152"
+   ],
+   [
+    "2026",
+    "Engineering Escherichia coli Nissle 1917 for the highly efficient biosynthesis of food-grade ergothioneine.",
+    "42758394"
+   ],
+   [
+    "2025",
+    "Biosynthesis of ergothioneine: current state, achievements, and perspectives.",
+    "40220171"
+   ],
+   [
+    "2026",
+    "The Pyridoxal-5'-Phosphate-Dependent Enzymes of &lt;i&gt;Mycobacterium tuberculosis&lt;/i&gt;.",
+    "41616277"
+   ],
+   [
+    "2026",
+    "Efficient Synthesis of Ergothioneine in Escherichia coli Through Identification of Bacterial-Type Egt1 and Sel",
+    "42144779"
+   ],
+   [
+    "2026",
+    "Rv3400 is a phosphoglucomutase required for trehalose metabolism in &lt;i&gt;Mycobacterium tuberculosis&lt;/i&",
+    "42690184"
+   ],
+   [
+    "2026",
+    "Multifunctional Roles and Microbial Production Bottlenecks of Ergothioneine.",
+    "41919719"
+   ],
+   [
+    "2026",
+    "Engineering &lt;i&gt;Escherichia coli&lt;/i&gt; for Ergothioneine Production via Metabolic Engineering and Fer",
+    "42197473"
+   ],
+   [
+    "2026",
+    "Metabolomics profiling reveals changes in peptidoglycan and redox metabolism between ancient and modern &lt;i&",
+    "42400480"
+   ],
+   [
+    "2026",
+    "The Gini coefficient as a surrogate for the regulability or homeostasis of metabolite concentrations: focus on",
+    "42749967"
+   ],
+   [
+    "2026",
+    "Edible Fungi and Skin Redox Homeostasis: Bioactive Diversity, Processing, Oral Exposure, and Evidence Gaps.",
+    "42792150"
+   ],
+   [
+    "2026",
+    "Metabolic engineering of &lt;i&gt;Vibrio natriegens&lt;/i&gt; for the efficient biosynthesis of ergothioneine ",
+    "42325659"
+   ],
+   [
+    "2026",
+    "The Gini coefficient as a surrogate for the regulability or homeostasis of metabolite concentrations: focus on",
+    "PPR1259542"
+   ],
+   [
+    "2026",
+    "A Key Metabolic Protein in Active Mycobacterium tuberculosis: Insights into Carbon, Nitrogen, and Sulfur Metab",
+    "41207940"
+   ]
+  ]
+ }
+}

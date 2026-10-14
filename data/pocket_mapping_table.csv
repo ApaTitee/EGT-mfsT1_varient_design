@@ -1,0 +1,9 @@
+﻿nark_res,nark_pos,aln_col,mfsT1_res,mfsT1_pos,mfsT1_charge,mfsT1_aromatic,窗口非gap数(±5),窗口与NarK同一数,narU_res,slc22a4_res,出处,验证等级
+F49,49,90,Y,14,0,Y,6/11,2,F,R,MAFFT(genome.jp) 5序列比对: mfsT1/NarK-4U4T/NarK-P10903/NarU-P37758/SLC22A4-Q9H015,🖥
+R89,89,169,Q,57,0,,11/11,3,R,-,MAFFT(genome.jp) 5序列比对: mfsT1/NarK-4U4T/NarK-P10903/NarU-P37758/SLC22A4-Q9H015,🖥
+F147,147,228,F,111,0,Y,11/11,3,F,Y,MAFFT(genome.jp) 5序列比对: mfsT1/NarK-4U4T/NarK-P10903/NarU-P37758/SLC22A4-Q9H015,🖥
+N175,175,256,Q,139,0,,10/11,3,N,F,MAFFT(genome.jp) 5序列比对: mfsT1/NarK-4U4T/NarK-P10903/NarU-P37758/SLC22A4-Q9H015,🖥
+Y263,263,370,H,219,+,Y,9/11,1,Y,W,MAFFT(genome.jp) 5序列比对: mfsT1/NarK-4U4T/NarK-P10903/NarU-P37758/SLC22A4-Q9H015,🖥
+F267,267,374,gap,gap,0,,6/11,1,F,-,MAFFT(genome.jp) 5序列比对: mfsT1/NarK-4U4T/NarK-P10903/NarU-P37758/SLC22A4-Q9H015,🖥
+R305,305,417,A,260,0,,11/11,4,R,E,MAFFT(genome.jp) 5序列比对: mfsT1/NarK-4U4T/NarK-P10903/NarU-P37758/SLC22A4-Q9H015,🖥
+S411,411,542,G,361,0,,11/11,1,S,T,MAFFT(genome.jp) 5序列比对: mfsT1/NarK-4U4T/NarK-P10903/NarU-P37758/SLC22A4-Q9H015,🖥

@@ -1,0 +1,24 @@
+# 配体 SMILES（`fix_ligand_bond_orders.py` 用）
+# ⚠️ 关键：EGT 的**硫酮形式必须写成 Kekulé 式**（芳香式 `c1c[nH]c(=S)n1` 在 RDKit 里无法凯库勒化）
+# ⚠️ Chai-1 输出的配体只有重原子坐标、无键级信息 → 必须用本文件的 SMILES 赋键级，否则 C=S 会被当单键
+
+# EGT（L-麦角硫因，硫酮型；生理两性离子）
+# PubChem CID 5351619 ｜ CCD code: LW8 ｜ 分子式 C9H15N3O2S
+EGT	C[N+](C)(C)C(CC1=CNC(=S)N1)C(=O)[O-]
+
+# hercynine（Nα,Nα,Nα-三甲基组氨酸 = EGT 的直接中间体，比 EGT 少一个硫）
+# PubChem CID 5459798 ｜ 分子式 C9H15N3O2
+hercynine	C[N+](C)(C)C(Cc1c[nH]cn1)C(=O)[O-]
+
+# 对照分子（终点"选择性比"里要区分的那三个）
+# PubChem CID 247 ｜ 甘氨酸甜菜碱
+glycine_betaine	C[N+](C)(C)CC(=O)[O-]
+
+# PubChem CID 6274 ｜ L-组氨酸（中性形式）
+L_histidine	N[C@@H](Cc1c[nH]cn1)C(=O)O
+
+# ---------------------------------------------------------------------------
+# 自检（本机已通过）：
+#   EGT      -> 15 重原子，双键 3 个（含 C=S ✓）
+#   hercynine-> 14 重原子，双键 3 个（无 C=S ✓）
+# ---------------------------------------------------------------------------

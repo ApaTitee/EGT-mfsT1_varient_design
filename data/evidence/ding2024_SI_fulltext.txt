@@ -1,0 +1,233 @@
+
+Co-augmentation of a transport gene mfsT1 in Mycolicibacterium neoaurum with genome engineering to enhance ergothioneine production
+Ya-Xue Ding1,2 | Jun-Wei Chen1,4 | Jie Ke2 | Fei-Yang Hu3 | Jia-Chen Wen3 | Yu-Guo Dong2 | Feng-Qing Wang2 | Liang-Bin Xiong1,2,3,4
+1 Department of General Surgery, Jinshan District Central Hospital Affiliated Shanghai University of Medicine and Health Sciences, Shanghai 201599, China.
+2 State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, Shanghai 200237, China.
+3 Shanghai Key Laboratory of Molecular Imaging, School of Pharmacy, Shanghai University of Medicine and Health Sciences, Shanghai 201318, China
+4 School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai 200093, China
+Correspondence
+Liang-Bin Xiong, 279 Zhouzhu Rd., Shanghai University of Medicine and Health Sciences, Shanghai 201318, China. Email: xionglb@sumhs.edu.cn
+Yu-Guo Dong, State Key Laboratory of Bioreactor Engineering, Newworld Institute of Biotechnology, East China University of Science and Technology, Shanghai 200237, China. Email: dongyuguo@ecust.edu.cn
+
+Table S1 Plasmids used in this study
+Name
+	Description
+	Source
+	
+p2NIL
+	Vector for constructing homologous arms of mycobacteria, KanR
+	 ADDIN EN.CITE <EndNote><Cite><Author>Gordhan</Author><Year>2001</Year><RecNum>1663</RecNum><DisplayText>[1]</DisplayText><record><rec-number>1663</rec-number><foreign-keys><key app="EN" db-id="ppavpax5isaftpepsttv0ztxvpxp9rwd2a0f" timestamp="1688223847">1663</key></foreign-keys><ref-type name="Journal Article">17</ref-type><contributors><authors><author>Gordhan, Bhavna G.</author><author>Parish, Tanya</author></authors></contributors><titles><title>Gene replacement using pretreated DNA</title><secondary-title>Methods Mol. Med.</secondary-title></titles><periodical><full-title>Methods in Molecular Medicine</full-title><abbr-1>Methods Mol. Med.</abbr-1><abbr-2>Methods Mol Med</abbr-2></periodical><pages><style face="normal" font="default" size="100%">77</style><style face="normal" font="default" charset="1" size="100%">−</style><style face="normal" font="default" size="100%">92</style></pages><volume>54</volume><number>2023</number><dates><year>2001</year></dates><urls></urls><electronic-resource-num>https://doi.org/10.1016/j.mtbio.2023.100543</electronic-resource-num></record></Cite></EndNote>[1]
+	
+p2N-Mn_3042
+	p2NIL carrying two homologous arms of Mn_3042, KanR
+	 ADDIN EN.CITE <EndNote><Cite><Author>Xiong</Author><Year>2022</Year><RecNum>1659</RecNum><DisplayText>[2]</DisplayText><record><rec-number>1659</rec-number><foreign-keys><key app="EN" db-id="ppavpax5isaftpepsttv0ztxvpxp9rwd2a0f" timestamp="1687444867">1659</key></foreign-keys><ref-type name="Journal Article">17</ref-type><contributors><authors><author>Xiong, Liang‐Bin</author><author>Xie, Zhi‐Yong</author><author>Ke, Jie</author><author>Wang, Li</author><author>Gao, Bei</author><author>Tao, Xin‐Yi</author><author>Zhao, Ming</author><author>Shen, Ya‐Ling</author><author>Wei, Dong‐Zhi</author><author>Wang, Feng‐Qing</author></authors></contributors><titles><title><style face="normal" font="default" size="100%">Engineering </style><style face="italic" font="default" size="100%">Mycolicibacterium neoaurum </style><style face="normal" font="default" size="100%">for the production of antioxidant ergothioneine</style></title><secondary-title>Food Bioengineering</secondary-title></titles><periodical><full-title>Food Bioengineering</full-title><abbr-1>Food Bioeng.</abbr-1><abbr-2>Food Bioeng</abbr-2></periodical><pages>26–36</pages><volume>1</volume><number>1</number><dates><year>2022</year></dates><urls></urls><electronic-resource-num>https://doi.org/10.1002/fbe2.12004</electronic-resource-num></record></Cite></EndNote>[2]
+	
+pGOAL19
+	Hyg Pag85-lacZ Phsp60-sacB, PacⅠcassette vector, AmpR
+	 ADDIN EN.CITE <EndNote><Cite><Author>Gordhan</Author><Year>2001</Year><RecNum>1663</RecNum><DisplayText>[1]</DisplayText><record><rec-number>1663</rec-number><foreign-keys><key app="EN" db-id="ppavpax5isaftpepsttv0ztxvpxp9rwd2a0f" timestamp="1688223847">1663</key></foreign-keys><ref-type name="Journal Article">17</ref-type><contributors><authors><author>Gordhan, Bhavna G.</author><author>Parish, Tanya</author></authors></contributors><titles><title>Gene replacement using pretreated DNA</title><secondary-title>Methods Mol. Med.</secondary-title></titles><periodical><full-title>Methods in Molecular Medicine</full-title><abbr-1>Methods Mol. Med.</abbr-1><abbr-2>Methods Mol Med</abbr-2></periodical><pages><style face="normal" font="default" size="100%">77</style><style face="normal" font="default" charset="1" size="100%">−</style><style face="normal" font="default" size="100%">92</style></pages><volume>54</volume><number>2023</number><dates><year>2001</year></dates><urls></urls><electronic-resource-num>https://doi.org/10.1016/j.mtbio.2023.100543</electronic-resource-num></record></Cite></EndNote>[1]
+	
+p19-Mn_3042
+	p2NIL-derived with selection cassette from pGOAL19 for deletion of Mn_3042 in mycobacteria
+	 ADDIN EN.CITE <EndNote><Cite><Author>Xiong</Author><Year>2022</Year><RecNum>1659</RecNum><DisplayText>[2]</DisplayText><record><rec-number>1659</rec-number><foreign-keys><key app="EN" db-id="ppavpax5isaftpepsttv0ztxvpxp9rwd2a0f" timestamp="1687444867">1659</key></foreign-keys><ref-type name="Journal Article">17</ref-type><contributors><authors><author>Xiong, Liang‐Bin</author><author>Xie, Zhi‐Yong</author><author>Ke, Jie</author><author>Wang, Li</author><author>Gao, Bei</author><author>Tao, Xin‐Yi</author><author>Zhao, Ming</author><author>Shen, Ya‐Ling</author><author>Wei, Dong‐Zhi</author><author>Wang, Feng‐Qing</author></authors></contributors><titles><title><style face="normal" font="default" size="100%">Engineering </style><style face="italic" font="default" size="100%">Mycolicibacterium neoaurum </style><style face="normal" font="default" size="100%">for the production of antioxidant ergothioneine</style></title><secondary-title>Food Bioengineering</secondary-title></titles><periodical><full-title>Food Bioengineering</full-title><abbr-1>Food Bioeng.</abbr-1><abbr-2>Food Bioeng</abbr-2></periodical><pages>26–36</pages><volume>1</volume><number>1</number><dates><year>2022</year></dates><urls></urls><electronic-resource-num>https://doi.org/10.1002/fbe2.12004</electronic-resource-num></record></Cite></EndNote>[2]
+	
+pMV261
+	Shuttle vector of M. neoaurum and E. coli carrying the heat shock (hsp60) promoter, KanR
+	 ADDIN EN.CITE <EndNote><Cite><Author>Stover</Author><Year>1991</Year><RecNum>30</RecNum><DisplayText>[3]</DisplayText><record><rec-number>30</rec-number><foreign-keys><key app="EN" db-id="5xpw0v5erxzf5ne55r05a5vispf0t95t0sw5" timestamp="0">30</key></foreign-keys><ref-type name="Journal Article">17</ref-type><contributors><authors><author>Stover, C. K.</author><author>de la Cruz, V. F.</author><author>Fuerst, T. R.</author><author>Burlein, J. E.</author><author>Benson, L. A.</author><author>Bennett, L. T.</author><author>Bansal, G. P.</author><author>Young, J. F.</author><author>Lee, M. H.</author><author>Hatfull, G. F.</author><author>Snapper, S. B.</author><author>Barletta, R. G.</author><author>Jacobs Jr, W. R.</author><author>Bloom, B. R.</author></authors></contributors><titles><title>New use of BCG for recombinant vaccines</title><secondary-title>Nature</secondary-title></titles><periodical><full-title>Nature</full-title><abbr-1>Nature</abbr-1><abbr-2>Nature</abbr-2></periodical><pages><style face="normal" font="default" size="100%">456</style><style face="normal" font="default" charset="134" size="100%">−</style><style face="normal" font="default" size="100%">460</style></pages><volume>351</volume><number>6326</number><dates><year>1991</year></dates><urls></urls></record></Cite></EndNote>[3]
+	
+p261-egt-hisG
+	Recombinant pMV261, for overexpression of the egtABCDE cluster and hisG in mycobacteria, KanR
+	 ADDIN EN.CITE <EndNote><Cite><Author>Xiong</Author><Year>2022</Year><RecNum>1659</RecNum><DisplayText>[2]</DisplayText><record><rec-number>1659</rec-number><foreign-keys><key app="EN" db-id="ppavpax5isaftpepsttv0ztxvpxp9rwd2a0f" timestamp="1687444867">1659</key></foreign-keys><ref-type name="Journal Article">17</ref-type><contributors><authors><author>Xiong, Liang‐Bin</author><author>Xie, Zhi‐Yong</author><author>Ke, Jie</author><author>Wang, Li</author><author>Gao, Bei</author><author>Tao, Xin‐Yi</author><author>Zhao, Ming</author><author>Shen, Ya‐Ling</author><author>Wei, Dong‐Zhi</author><author>Wang, Feng‐Qing</author></authors></contributors><titles><title><style face="normal" font="default" size="100%">Engineering </style><style face="italic" font="default" size="100%">Mycolicibacterium neoaurum </style><style face="normal" font="default" size="100%">for the production of antioxidant ergothioneine</style></title><secondary-title>Food Bioengineering</secondary-title></titles><periodical><full-title>Food Bioengineering</full-title><abbr-1>Food Bioeng.</abbr-1><abbr-2>Food Bioeng</abbr-2></periodical><pages>26–36</pages><volume>1</volume><number>1</number><dates><year>2022</year></dates><urls></urls><electronic-resource-num>https://doi.org/10.1002/fbe2.12004</electronic-resource-num></record></Cite></EndNote>[2]
+	
+p261-egt-hisG-mfsT1
+	Recombinant pMV261, for overexpression of the egtABCDE cluster, hisG and mfsT1 in mycobacteria, KanR
+	This study
+	
+p261-egt-hisG-mfsT1-metK-ahcY
+	Recombinant pMV261, for overexpression of the egtABCDE cluster, hisG, mfsT1, metK and ahcY in mycobacteria, KanR
+	This study
+	
+pMV306
+	Integration vector with single copy in M. neoaurum, without promoter, KanR
+	 ADDIN EN.CITE <EndNote><Cite><Author>Stover</Author><Year>1992</Year><RecNum>32</RecNum><DisplayText>[4]</DisplayText><record><rec-number>32</rec-number><foreign-keys><key app="EN" db-id="5xpw0v5erxzf5ne55r05a5vispf0t95t0sw5" timestamp="0">32</key></foreign-keys><ref-type name="Journal Article">17</ref-type><contributors><authors><author>Stover, C. K.</author><author>de la Cruz, V. F.</author><author>Bansal, G. P.</author><author>Hanson, M. S.</author><author>Fuerst, T. R.</author><author>Jacobs Jr, W. R.</author><author>Bloom, B. R.</author></authors></contributors><titles><title>Use of recombinant BCG as a vaccine delivery vehicle</title><secondary-title>Adv. Exp. Med. Biol.</secondary-title></titles><periodical><full-title>Advances in Experimental Medicine and Biology</full-title><abbr-1>Adv. Exp. Med. Biol.</abbr-1><abbr-2>Adv Exp Med Biol</abbr-2></periodical><pages><style face="normal" font="default" size="100%">175</style><style face="normal" font="default" charset="134" size="100%">−</style><style face="normal" font="default" size="100%">182</style></pages><volume>327</volume><dates><year>1992</year></dates><urls></urls></record></Cite></EndNote>[4]
+	
+p306-egt-hisG
+	pMV306-Phsp60-egtABCDE-hisG, integrative into mycobacterial genome DNA, KanR
+	This study
+	
+p306-egt-hisG-mfsT1
+	pMV306-Phsp60-egtABCDE-hisG-mfsT1, integrative into mycobacterial genome DNA, KanR
+	This study
+	
+p306-egt-hisG-mfsT1-metK-ahcY
+	pMV306-Phsp60-egtABCDE-hisG-msfT1-metK-ahcY, integrative into mycobacterial genome DNA, KanR
+	This study
+	
+
+Table S2 Primers used in this study
+Primers
+	Description
+	
+mfsT1-F
+	TTCTGCCGGTTCTGAGTTGAGAAGGAGATATAGTGCGTCCGTGGATCGTCTGG
+	
+mfsT1-R
+	GTCGATCGTACGCTAGTTAACTCAGCGGCTGATGTCGGTCGG
+	
+306-F
+	CGCGTGCGGCCGCTCTAGAGGTGACCACAACGACGCGCC
+	
+mfsT1-metK-F
+	CCGACATCAGCCGCTGAGTTGAGAAGGAGATATAGTGAGCGCAGGTCGCTTGTT
+	
+hisG-R
+	CAGTCGATCGTACGCTAGTTAACTCAGAACCGGCAGAAGCGGATATCG
+	
+mfsT1-ahcY-R
+	TGGCAGTCGATCGTACGCTAGTTaacTCAGTACCGGTAGTGCTCCG
+	
+
+
+Table S3 Comparative transcriptome differences of putative MFS-type transporters
+ID
+	Symbol
+	Fold Change (EGT10B/EGT00)
+	Log2 (Fold Change)
+	P-Value
+	Description
+	
+gene3725
+	NGR_a01730
+	4.74 
+	2.24 
+	0.026
+	Uncharacterized MFS-type transporter y4rN
+	
+gene1154
+	-
+	3.45 
+	1.79 
+	0.033
+	Uncharacterized MFS-type transporter mfsT1
+	
+gene3216
+	Rv2994
+	1.80 
+	0.85 
+	0.234
+	Uncharacterized MFS-type transporter Rv2994/MT3072
+	
+gene1388
+	yhcA
+	1.22 
+	0.29 
+	0.389
+	Uncharacterized MFS-type transporter YhcA
+	
+gene4103
+	Rv1877
+	1.17 
+	0.23 
+	0.379
+	Uncharacterized MFS-type transporter Rv1877/MT1926
+	
+gene2284
+	Rv2456c
+	1.14 
+	0.19 
+	0.607
+	Uncharacterized MFS-type transporter Rv2456c/MT2531
+	
+gene2755
+	Rv1410c
+	1.06 
+	0.08 
+	0.704
+	MFS-type drug efflux transporter P55
+	
+gene2511
+	ydgK
+	1.05 
+	0.08 
+	0.815
+	Uncharacterized MFS-type transporter YdgK
+	
+gene1366
+	Rv0191
+	1.04 
+	0.05 
+	0.831
+	Uncharacterized MFS-type transporter Rv0191/MT0201
+	
+gene2427
+	efpA
+	0.95 
+	-0.07 
+	0.957
+	Uncharacterized MFS-type transporter EfpA
+	
+gene3610
+	ydgK
+	0.95 
+	-0.08 
+	1
+	Uncharacterized MFS-type transporter YdgK
+	
+gene1132
+	yxiO
+	0.92 
+	-0.12 
+	0.823
+	Uncharacterized MFS-type transporter YxiO
+	
+gene627
+	ybcL
+	0.89 
+	-0.17 
+	0.603
+	Uncharacterized MFS-type transporter YbcL
+	
+gene2068
+	Rv0849
+	0.84 
+	-0.26 
+	0.45
+	Uncharacterized MFS-type transporter Rv0849/MT0872
+	
+gene247
+	Mb0038c
+	0.83 
+	-0.27 
+	0.387
+	Uncharacterized MFS-type transporter Mb0038c
+	
+gene1271
+	Rv0849
+	0.77 
+	-0.37 
+	0.467
+	Uncharacterized MFS-type transporter Rv0849/MT0872
+	
+gene1859
+	SACE_5813
+	0.74 
+	-0.44 
+	0.218
+	Uncharacterized MFS-type transporter SACE_5813
+	
+gene3730
+	ybfB
+	0.71 
+	-0.50 
+	0.154
+	Uncharacterized MFS-type transporter YbfB
+	
+
+
+Figure S1
+
+Figure S1 Amplification result of mfsT1 gene in M. neoaurum ATCC 25795. The wild-type 1287-bp sequence was amplified and ligated into the recombined pMV261 plasmid. 
+REFERENCES
+ ADDIN EN.REFLIST [1]Gordhan BG, Parish T. Gene replacement using pretreated DNA. Methods Mol Med. 2001;54:77−92.
+[2]Xiong LB, Xie ZY, Ke J, Wang L, Gao B, Tao XY, et al. Engineering Mycolicibacterium neoaurum for the production of antioxidant ergothioneine. Food Bioeng. 2022;1:26–36.
+[3]Stover CK, de la Cruz VF, Fuerst TR, Burlein JE, Benson LA, Bennett LT, et al. New use of BCG for recombinant vaccines. Nature. 1991;351:456−60.
+[4]Stover CK, de la Cruz VF, Bansal GP, Hanson MS, Fuerst TR, Jacobs Jr WR, et al. Use of recombinant BCG as a vaccine delivery vehicle. Adv Exp Med Biol. 1992;327:175−82.

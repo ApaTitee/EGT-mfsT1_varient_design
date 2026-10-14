@@ -1,0 +1,31 @@
+##gff-version 3
+## WP_030133796.1 Length: 428
+## WP_030133796.1 Number of predicted TMRs: 12
+WP_030133796.1	DeepTM	inside	1	7	.	.	.	.
+WP_030133796.1	DeepTM	TMhelix	8	28	.	.	.	.
+WP_030133796.1	DeepTM	outside	29	41	.	.	.	.
+WP_030133796.1	DeepTM	TMhelix	42	64	.	.	.	.
+WP_030133796.1	DeepTM	inside	65	71	.	.	.	.
+WP_030133796.1	DeepTM	TMhelix	72	89	.	.	.	.
+WP_030133796.1	DeepTM	outside	90	94	.	.	.	.
+WP_030133796.1	DeepTM	TMhelix	95	113	.	.	.	.
+WP_030133796.1	DeepTM	inside	114	130	.	.	.	.
+WP_030133796.1	DeepTM	TMhelix	131	152	.	.	.	.
+WP_030133796.1	DeepTM	outside	153	160	.	.	.	.
+WP_030133796.1	DeepTM	TMhelix	161	179	.	.	.	.
+WP_030133796.1	DeepTM	inside	180	196	.	.	.	.
+WP_030133796.1	DeepTM	interfacial	197	204	.	.	.	.
+WP_030133796.1	DeepTM	inside	205	213	.	.	.	.
+WP_030133796.1	DeepTM	TMhelix	214	234	.	.	.	.
+WP_030133796.1	DeepTM	outside	235	250	.	.	.	.
+WP_030133796.1	DeepTM	TMhelix	251	270	.	.	.	.
+WP_030133796.1	DeepTM	inside	271	279	.	.	.	.
+WP_030133796.1	DeepTM	TMhelix	280	297	.	.	.	.
+WP_030133796.1	DeepTM	outside	298	306	.	.	.	.
+WP_030133796.1	DeepTM	TMhelix	307	326	.	.	.	.
+WP_030133796.1	DeepTM	inside	327	343	.	.	.	.
+WP_030133796.1	DeepTM	TMhelix	344	361	.	.	.	.
+WP_030133796.1	DeepTM	outside	362	376	.	.	.	.
+WP_030133796.1	DeepTM	TMhelix	377	394	.	.	.	.
+WP_030133796.1	DeepTM	inside	395	428	.	.	.	.
+//

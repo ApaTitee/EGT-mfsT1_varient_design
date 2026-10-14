@@ -1,0 +1,12 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5351619,
+        "MolecularFormula": "C9H15N3O2S",
+        "SMILES": "C[N+](C)(C)[C@@H](CC1=CNC(=S)N1)C(=O)[O-]",
+        "InChIKey": "SSISHJJTAXXQAX-ZETCQYMHSA-N"
+      }
+    ]
+  }
+}

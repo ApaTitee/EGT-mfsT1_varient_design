@@ -1,0 +1,15 @@
+# ---- 可再生的大体积产物（可用 tools/ 脚本复跑生成，见 out/D4_results_notes.md §6）----
+out/D1_EGT_T*/packed/
+out/D1_EGT_T*/backbones/
+out/D1_EGT_T*/stats/
+out/D2_S3/pdbs_EGT/
+out/D2_S3/pdbs_hercynine/
+out/D2_S3/scores_EGT/
+out/D2_S3/scores_hercynine/
+
+# ---- 冒烟测试临时目录 ----
+smoke_test/work/
+
+# ---- Python ----
+__pycache__/
+*.pyc

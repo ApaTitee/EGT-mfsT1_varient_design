@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5459798,
+        "MolecularFormula": "C9H15N3O2",
+        "SMILES": "C[N+](C)(C)[C@@H](CC1=CN=CN1)C(=O)[O-]",
+        "ConnectivitySMILES": "C[N+](C)(C)C(CC1=CN=CN1)C(=O)[O-]",
+        "InChIKey": "GPPYTCRVKHULJH-QMMMGPOBSA-N"
+      }
+    ]
+  }
+}
