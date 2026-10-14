@@ -99,4 +99,4 @@ python tools/analyze_designs.py                   # S1 + 短名单 + WT 分位
 | `D4_expected_phenotype.csv` | 预期表型 + 判别实验 |
 | `D1_run.log` | D1 运行日志 |
 
-**本轮实际做到：标准版。** 停在 D3（需 AF3 服务器额度）；下一步建议：① top 3 送 AF3（CCD `LW8`）复折叠 → 升级完整版；② Δscore 换 2–3 个 seed 复查稳健性；③ 短名单第 1–3 条可先做湿实验引物设计。
+**本轮实际做到：标准版。** 停在 D3（需 AF3 服务器）；下一步建议：① top 3 送 AF3 复折叠 → 升级完整版（**任务 JSON 与手册见 `out/D3_af3_jobs/` 与 `out/D3_full_version_manual.md` v2**；注意服务器方言为 `alphafoldserver`，且 `LW8` 可能不在服务器配体白名单内，apo 后备 JSON 已备）；② Δscore 换 2–3 个 seed 复查稳健性；③ 短名单第 1–3 条可先做湿实验引物设计。
