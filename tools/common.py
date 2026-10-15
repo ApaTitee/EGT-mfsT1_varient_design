@@ -197,8 +197,11 @@ def lig_sites(lig, adj=None):
             me = [j for j in nbr if lig[j]["atom"].startswith("C") and len(adj[j]) == 1]
             if len(me) == 3:
                 info["N_quat"] = i
-            if sum(1 for j in nbr if lig[j]["atom"].startswith("N")) == 2 and \
-               len([j for j in nbr if lig[j]["atom"].startswith("C")]) == 1:
+        if el == "C" or nm.startswith("C"):
+            # 咪唑 C2 = 与 2 个 N 相连的环碳（重原子邻居恰好为 2 个 N）
+            n_n = sum(1 for j in nbr if lig[j]["atom"].startswith("N"))
+            n_c = sum(1 for j in nbr if lig[j]["atom"].startswith("C"))
+            if n_n == 2 and n_c == 0:
                 info["C2_imidazole"] = i
         if nm.startswith("C") and sum(1 for j in nbr if lig[j]["atom"].startswith("O")) == 2:
             info["C_carbox"] = i
